@@ -20,8 +20,6 @@ namespace BackUp
             Console.WriteLine("Enter V Information: "); 
             double t= double.Parse(Console.ReadLine());
             ServiceStorage.getCountDevice(TypeDevice.Flash, t);
-
-
         }
     }
 }

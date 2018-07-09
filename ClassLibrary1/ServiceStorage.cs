@@ -50,7 +50,7 @@ namespace BackUp.Lib
 
                         Console.WriteLine("Choose variant: ");
                         i = Int32.Parse(Console.ReadLine());
-
+                        getTimeToCopy(TypeDevice.Flash, i, sizeData);
                     }
                     break;
                 case TypeDevice.DVD:
